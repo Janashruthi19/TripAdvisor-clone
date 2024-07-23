@@ -1,0 +1,734 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'gabarito', sans-serif;
+}
+
+/*Navbar section*/
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid rgb(230, 230, 230) 1px;
+    gap: 10px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+    Align-items: center;
+
+}
+
+.navbar__s1 {}
+
+.navbar__s2__title img {
+    width: 200px;
+    display: flex;
+
+
+}
+
+.navbar__s2 {
+    display: flex;
+    gap: 40px;
+    font-size: 15px;
+ 
+    
+
+}
+
+.navbar__s2 p:hover {
+    background-color: #f2f3f2;
+    cursor: pointer;
+    border-radius: 20px;
+    border: solid 1px #f2f3f2;
+
+}
+.navbar__s3{
+    display:flex;
+    gap: 10px;
+}
+.navbar__s3  .globe-button{
+    display: inline-block;
+    padding: 10px;
+    background-color:white;
+    color: black;
+    gap: 10px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+
+}
+.navbar__s3  .globe-button:hover{
+    display: inline-block;
+    padding: 10px;
+    background-color:#F2F2F2;
+    color: black;
+    gap: 10px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+
+}
+
+.navbar__s3 .signin-button{
+
+    display: inline-block;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    gap: 10px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+/*Section 1*/
+.section-1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+
+}
+
+.section-1-container h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.section-1__menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 20px;
+  
+
+
+}
+
+.menubar {
+    margin: 0 10px;
+    padding-top: 10px;
+    gap: 2px;
+    text-decoration: none;
+    color: #000;
+
+}
+
+.menubar:hover {
+    text-decoration: underline  2px;
+  
+
+
+}
+.menubar a {
+    text-decoration: none;
+    color: #000; 
+}
+.menubar a.active{
+    text-decoration: underline 2px;
+   
+}
+/*section-2*/
+
+.section-2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.section-2__search {
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 45%;
+    display: flex;
+    gap: 10px;
+border: none;
+    align-items: center;
+    justify-content: center;
+      box-shadow: 3px 3px 3px 3px #E0E0E0;
+}
+
+.section-2__search input {
+    border: none;
+    width: 100%;
+    font-size: 15px;
+    background-color: transparent;
+
+
+}
+
+.section-2__search input:focus {
+    outline: none;
+}
+
+.search-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #34E0A1;
+    color: black;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.search-button:hover {
+    background-color: #92f3d0;
+    cursor: pointer;
+}
+/*SECTION 3*/
+
+/**section 3 */
+.section-3-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    border-radius: 40px;
+    
+    position: relative; /* Ensure the container is positioned relative for absolute positioning */
+}
+
+.home-img {
+    position: relative; /* Ensure the image container is positioned relative for absolute positioning */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-img img {
+    width: 1150px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: #D8D4FB;
+}
+
+.home-img__text {
+    color: black;
+    padding: 2%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    
+    border-radius: 10px; /* Optional: rounded corners for the text container */
+}
+.home-img__text .AIbeta{
+    font-size: smaller ;
+}
+
+.home-img__text p {
+    font-size: 18px; /* Adjust size as needed */
+    margin-bottom: 10px;
+}
+
+.home-img__text h1 {
+    font-size: 40px; /* Adjust size as needed */
+    margin-bottom: 10px;
+}
+
+.home-img__text h5 {
+    font-size: 16px; /* Adjust size as needed */
+    margin-bottom: 20px;
+}
+
+.trip-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000; /* Button background color */
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.trip-button:hover {
+    background-color: #333; /* Button hover color */
+}
+
+/*Top picks*/
+.top-picks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px;
+
+}
+
+.top-picks-title{
+ 
+ text-align: left;
+max-width: 1150px;
+ margin-bottom: 20px;
+ width: 100%;
+}
+.top-picks-p{
+    text-align: left;
+max-width: 1150px;
+ margin-bottom: 20px;
+ width: 100%; 
+}
+
+
+
+.top-picks-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    width: 1150px;
+    flex-wrap: nowrap;
+
+
+}
+.picks-card{
+    flex: 1;
+    max-width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+.picks-card img{
+    border-radius: 8px;
+    width: 100%;
+    width: 100%;
+    height: 250px; 
+    object-fit: cover;
+}
+.picks-card p {
+    margin-top: 10px; 
+    text-align: start;
+}
+.picks-card-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   
+   font-weight: 100;
+   font-style: bold;
+    color: white; 
+    padding: 10px; 
+    text-align: center;
+    border-radius: 0 0 8px 8px; /
+}
+/*section 4*/
+
+
+.section-4 h3,
+.section-4 p {
+    margin-bottom: 20px;
+    text-align: left;
+   
+}
+
+
+.section-4 {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+
+}
+
+.section-4-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 1150px;
+
+
+}
+
+.trip-card {
+    flex: 1;
+    max-width: 25%;
+    text-align: center;
+}
+
+.trip-card img {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover;
+    border-radius: 8px;
+  
+   
+    
+}
+.card-img{
+    position: relative;
+}
+.like-icon{
+    background-color:white;
+    color: black;
+    padding: 10px;
+    border-radius: 50px;
+    position: absolute;
+    top: 5px;
+    right:  10px;
+}
+.like-icon:hover{
+    background-color: #F2F2F2;
+}
+
+.trip-card img:hover{
+   cursor: pointer;
+ 
+}
+.trip-card p {
+    margin-top: 10px; 
+    text-align: start;
+    justify-content: flex-start;
+}
+.trip-card .rating,
+.trip-card .price {
+    font-size: 13px;
+}
+/*Section 5*/
+.section-5 h3,
+.section-5 p {
+    margin-bottom: 20px;
+    text-align: left;
+   
+}
+.section-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+
+
+}
+.section-5 .top-picks-title{
+ 
+    text-align: left;
+   max-width: 1150px;
+    margin-bottom: 20px;
+    width: 100%;
+   }
+   .top-picks-p{
+       text-align: left;
+   max-width: 1150px;
+    margin-bottom: 20px;
+    width: 100%; 
+   }
+.section-5-container {
+   
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 1150px;
+
+}
+.trip-card {
+    flex: 1;
+    max-width: 25%;
+    text-align: center;
+}
+
+.trip-card img {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover;
+    border-radius: 8px;
+    position: relative;
+   
+    
+}
+.trip-card img:hover{
+   cursor: pointer;
+ 
+}
+.trip-card p {
+    margin-top: 10px; 
+    text-align: start;
+    justify-content: flex-start;
+}
+.trip-card-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   
+   font-weight: 100;
+   font-style: bold;
+    color: white; 
+    padding: 10px; 
+    text-align: center;
+    border-radius: 0 0 8px 8px; /
+}
+/**Section 6*/
+.more-to-explore h3{
+    margin-bottom: 20px;
+}
+
+.more-to-explore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #FAF1ED;
+}
+
+.more-to-explore-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 1150px;
+}
+.explore-card img {
+    width: 100%;
+    height: 200px;
+
+    object-fit: cover;
+    border-radius: 8px;
+   
+}
+.explore-card {
+    flex: 1;
+    max-width: 33%; 
+    text-align: center;
+}
+
+.explore-card-content {
+    padding: 10px;
+}
+/**section 7**/
+
+.adventures h3,
+.adventures p {
+    margin-bottom: 20px;
+    text-align: left;
+   
+}
+.adventures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+
+
+}
+
+.adventures-container {
+   
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 1150px;
+
+}
+.adven-card {
+    flex: 1;
+    max-width: 25%;
+    text-align: center;
+}
+
+.adven-card img {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover;
+    border-radius: 8px;
+   
+    
+}
+.adven-card img:hover{
+   cursor: pointer;
+ 
+}
+.adven-card p {
+    margin-top: 10px; 
+    text-align: start;
+    justify-content: flex-start;
+}
+
+/**section 7 */
+/* Sponsored Banner with Image */
+.sponsored-banner {
+    display: flex;
+    align-items: center;
+    background-color:#F2ECF9; 
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1150px; 
+    margin: 40px auto; 
+   
+}
+
+.sponsored-banner img {
+    width: 50%; 
+    height: auto;
+    object-fit: cover;
+}
+
+.sponsored-banner-content {
+    flex: 1;
+    padding-left: 20px; 
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+}
+
+.sponsored-banner-content h1{
+
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.sponsored-banner-content p {
+  
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+.sponsored-banner a {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 18px;
+    background-color: #000000; 
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.sponsored-banner-content a:hover {
+    background-color: #474747; 
+}
+
+/**section 8 */
+/* Travellers Choice Section */
+.travallers-choice-container{
+    background-color: #FFF7E1;
+}
+.Travellers-choice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF7E1; 
+    padding: 40px;
+    border-radius: 10px;
+   max-width: 1000px;
+    margin: 40px auto;
+}
+
+.choice-left {
+    flex: 1;
+    padding-right: 70px;
+}
+
+.choice-left img {
+    width: 100px; 
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.choice-left h1 {
+    font-size:45px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.choice-left p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.winner-button {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #000000;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.winner-button:hover {
+    background-color: #474747;
+}
+
+.choice-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.choice-right img {
+    max-width: 100%; 
+    height: auto;
+}
+
+
+/**Footer Section**/
+.footer{
+    background-color: #FAF1ED;
+}
+.footer-container{
+    background-color: #FAF1ED;
+    padding: 20px;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    border-radius: 10px;
+   max-width: 1000px;
+    margin: 40px auto;
+   
+}
+.footer__one{
+    display: flex;
+    gap: 20px;
+}
+.footer__one p{
+    margin: 20px;
+    font-size: smaller;
+}
+.footer__two {
+margin-bottom: 10px;
+   gap: 20px;
+
+  
+}
+.footer__two .rights{
+    font-size: smaller;
+}
+.footer-img{
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer__two .underline-terms{
+    display: flex;
+text-decoration: underline;
+gap: 10px;
+margin: 10px 10px;
+}
+
+
